@@ -11,7 +11,7 @@
   <meta name="author" content="Kolosov Arkady">
   <!-- <meta name="keywords" content=""> -->
   <!-- <meta name="description" content=""> -->
-  <link rel="stylesheet" href="css/main.min.css">
+  <link rel="stylesheet" href="css/main.min.css?_v=20221202012257">
   <link rel="shortcut icon" href="img/shortcut.png">
 </head>
 
@@ -25,7 +25,7 @@
   <div class="header__container">
     <div class="header__body">
       <a href="#main" class="header__logo ibg">
-        <img src="img/logo.jpg" alt="Logo Image">
+        <picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.jpg" alt="Logo Image"></picture>
       </a>
       <nav class="header__menu">
         <ul class="header__list one">
@@ -88,6 +88,105 @@
     <!-- PAGE -->
     <main id="main" class="main">
 
+      <section class="fullscreen">
+        <div class="fullscreen__body">
+          <h1 class="fullscreen__title title-block-l">fullscreen video</h1>
+          <h2 class="fullscreen__subtitle title-block-m">lesson</h2>
+        </div>
+        <video class="fullscreen__video" preload="auto" muted autoplay loop poster="img/gallery/img-003.jpg">
+          <source src="img/video/starry-sky.webm" type="video/webm">
+          <source src="img/video/starry-sky.mp4" type="video/mp4">
+        </video>
+      </section>
+
+      <section class="grid-video">
+        <div class="grid-video__container">
+          <h2 class="grid-video__title title-block-m">video gallery</h2>
+          <div class="grid-video__items">
+            <div class="grid-video__item">
+              <div class="grid-video__video">
+                <video preload="auto" muted autoplay loop poster="img/gallery/img-003.jpg">
+                  <source src="img/video/starry-sky.webm" type="video/webm">
+                  <source src="img/video/starry-sky.mp4" type="video/mp4">
+                </video>
+              </div>
+              <p class="grid-video__text">cool video</p>
+              <a href="https://youtu.be/C5q0ULg0nmY" target="_blank" class="grid-video__btn wave-btn">
+                <span class="wave-btn__text">look</span>
+                <span class="wave-btn__waves"></span>
+              </a>
+            </div>
+
+            <div class="grid-video__item">
+              <div class="grid-video__video">
+                <video preload="auto" muted autoplay loop poster="img/gallery/img-003.jpg">
+                  <source src="img/video/starry-sky.webm" type="video/webm">
+                  <source src="img/video/starry-sky.mp4" type="video/mp4">
+                </video>
+              </div>
+              <p class="grid-video__text">cool video</p>
+              <a href="https://youtu.be/C5q0ULg0nmY" target="_blank" class="grid-video__btn wave-btn">
+                <span class="wave-btn__text">look</span>
+                <span class="wave-btn__waves"></span>
+              </a>
+            </div>
+
+            <div class="grid-video__item">
+              <div class="grid-video__video">
+                <video preload="auto" muted autoplay loop poster="img/gallery/img-003.jpg">
+                  <source src="img/video/starry-sky.webm" type="video/webm">
+                  <source src="img/video/starry-sky.mp4" type="video/mp4">
+                </video>
+              </div>
+              <p class="grid-video__text">cool video</p>
+              <a href="https://youtu.be/C5q0ULg0nmY" target="_blank" class="grid-video__btn wave-btn">
+                <span class="wave-btn__text">look</span>
+                <span class="wave-btn__waves"></span>
+              </a>
+            </div>
+
+            <div class="grid-video__item">
+              <div class="grid-video__video">
+                <iframe src="https://www.youtube.com/embed/C5q0ULg0nmY" title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+              <p class="grid-video__text">cool video</p>
+              <a href="https://youtu.be/C5q0ULg0nmY" target="_blank" class="grid-video__btn wave-btn">
+                <span class="wave-btn__text">look</span>
+                <span class="wave-btn__waves"></span>
+              </a>
+            </div>
+
+            <div class="grid-video__item">
+              <div class="grid-video__video">
+                <iframe src="https://www.youtube.com/embed/C5q0ULg0nmY" title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+              <p class="grid-video__text">cool video</p>
+              <a href="https://youtu.be/C5q0ULg0nmY" target="_blank" class="grid-video__btn wave-btn">
+                <span class="wave-btn__text">look</span>
+                <span class="wave-btn__waves"></span>
+              </a>
+            </div>
+
+            <div class="grid-video__item">
+              <div class="grid-video__video">
+                <iframe src="https://www.youtube.com/embed/C5q0ULg0nmY" title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+              <p class="grid-video__text">cool video</p>
+              <a href="https://youtu.be/C5q0ULg0nmY" target="_blank" class="grid-video__btn wave-btn">
+                <span class="wave-btn__text">look</span>
+                <span class="wave-btn__waves"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
 
     <!-- FOOTER -->
@@ -113,11 +212,11 @@
   </div>
 
   <!-- IONICONS -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js?_v=20221202012257"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js?_v=20221202012257"></script>
 
   <!-- MAIN.JS -->
-  <script src="js/main.min.js"></script>
+  <script src="js/main.min.js?_v=20221202012257"></script>
 </body>
 
 </html>
